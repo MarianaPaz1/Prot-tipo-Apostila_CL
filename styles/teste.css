@@ -1,0 +1,90 @@
+.header-site{
+    background-image: url(../assets/teste5.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+    padding-top: 300px;
+    padding-bottom: 300px;
+
+}
+
+.content-site{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.img-site{
+    background-image: url(../assets/teste6.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.Topicos {
+    background-color: #fff;
+    width: 320px;
+    height: 330px;
+    box-shadow: 10px 40px 50px rgba(0, 0, 0, 0.144);
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+.Topicos > .row {
+    width: 100%;
+    justify-content: center;
+    margin: auto !important;
+}
+
+.Topicos:hover {
+    box-shadow: 10px 40px 50px rgba(0, 0, 0, 0.384);
+}
+
+ .animacao {
+    position: absolute;
+    bottom: -191rem;
+    height: 8rem;
+    width: 91.5%;
+    background: url(../assets/numero.png);
+    block-size: 100rem 15rem;
+    filter: drop-shadow(0 .1rem .1rem rgba(0, 0, 0, .2));
+    animation: animate 10s linear infinite;
+}
+@keyframes animate {
+    0% {
+        background-position-x: 0rem;
+    }
+    100% {
+        background-position-x: 100rem;
+    }
+}
+
+.home {
+    min-height: 80vh;
+}
+
+.home-text span {
+    color: #ED4343;
+}
+
+.countdown-el{
+    background-image: url(../assets/sonho.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    color:#fff;
+    padding-top: 200px; 
+    padding-bottom: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
